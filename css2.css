@@ -1,0 +1,25 @@
+<style>
+{
+	background-color:E2A9FF;
+	color: 000;
+	margin: 1;
+	padding: 1;
+	text-align: center;
+}
+
+#ksiegi {
+	width: 100%;
+	float: center;
+	overflow: hidden;
+	text-align: center;
+	background-color:94FFB8;
+}
+
+#reflekcja{
+background-color:FFD633;
+color:310031;
+width: 100%;
+text-align:left;
+
+}
+</style>
