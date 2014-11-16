@@ -11,7 +11,7 @@ else{
 echo("Fail");
 }
 	
-$url = 'https://mandrillapp.com/api/1.0/messages/send.json'; $params = [ 'message' => array( 'subject' => $title, 'text' => $reflection, 'html' => '<p>'.$reflection.'</p>', 'from_email' => 'uek@no-replay.com', 'to' => array( array( 'email' => 'tetianavolodina@gmail.com', 'name' => 'Tetiana' ) ) ) ];
+$url = 'https://mandrillapp.com/api/1.0/messages/send.json'; $params = [ 'message' => array( 'subject' => $title, 'text' => $reflection, 'html' => '<p>'.$reflection.'</p>', 'from_email' => 'uek@no-replay.com', 'to' => array( array( 'email' => 'wojcikk@uek.krakow.pl', 'name' => 'Katarzyna' ) ) ) ];
 
 $params['key'] = 'HEpZLrPrRBEa7W9fLAJKeQ'; $params = json_encode($params); $ch = curl_init();
 
